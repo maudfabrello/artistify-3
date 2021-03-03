@@ -65,7 +65,7 @@ router.get("/album", async (req, res, next) => {
   }
 });
 
-router.get("/albums/:id", async (req, res, next) => {
+router.get("/album/:id", async (req, res, next) => {
   try {
     res.render(
       "album",
